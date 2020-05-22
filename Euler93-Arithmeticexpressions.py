@@ -16,10 +16,8 @@ def arith():
                     a.append(int(b))
         a.sort()
         j = 0
-        print(a)
         while a[j] == j+1:
             j+=1
-            print(j)
         if j > s:
             s = j
             t = i
