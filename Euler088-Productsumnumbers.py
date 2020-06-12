@@ -5,8 +5,7 @@ def productsum(p, s, c, b):
         for i in range(b, a//p*2 + 1):
             productsum(p*i, s+i, c+1, i)
 
-a = 12000
-if a > 12: a+= 1
+a = 12001
 n = [2*a] * a
 productsum(1, 1, 1, 2)
 
