@@ -23,6 +23,6 @@ while y < 9 or x > 0.01 or x < -0.01:
     else:
         x = s[0][0]
         y = s[0][1]
-    r = reflect(r[0], x, y, i)
+    r = reflect(r[0], x, y)
     i += 1
-print(i, x, y)
+print(i)
