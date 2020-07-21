@@ -21,6 +21,6 @@ def arith():
         if j > s:
             s = j
             t = i
-    print(t)
+    print(sum(j*10**(3-i)for i, j in enumerate(t)))
 
 arith()
