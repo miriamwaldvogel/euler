@@ -14,7 +14,6 @@ def driver():
             if bouncy(i):
                 b+=1
         a+=100
-        #print(a)
-    print(a, b)
+    print(a)
 
 driver()
