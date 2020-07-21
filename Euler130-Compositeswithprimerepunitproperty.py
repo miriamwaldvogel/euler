@@ -19,4 +19,3 @@ def composites(n):
     print(t)
 
 composites(25)
-#print(a(41))
