@@ -15,7 +15,6 @@ def minsum(n):
     r = 0
     d = len(n)
     for i in range(d):
-        print(i)
         for j in range(i+1):
             a = n[i][j]
             for k in range(1, d-i):
