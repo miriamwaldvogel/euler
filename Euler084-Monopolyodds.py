@@ -50,7 +50,7 @@ def monopoly(n, d):
                 p -= 3
         if p > 39:
             p -= 39
-        freq[p]+=1
+        freq[int(p)]+=1
     for i in range(3):
         a = max(freq)
         b = freq.index(a)

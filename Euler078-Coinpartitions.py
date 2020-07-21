@@ -8,7 +8,7 @@ def coinpartitions(n):
         q = 0
         j = 0
         while k[j] <= i:
-            q += p[i - k[j]] * sign[j%4]
+            q += p[int(i - k[j])] * sign[j%4]
             j += 1
         p.append(q % n)
     print(i)
