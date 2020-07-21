@@ -15,7 +15,6 @@ def path(n):
 def efficient(n):
     t = 1
     for i in range(3, n+1):
-        print(i)
         t += path(i)
     print(t)
 
